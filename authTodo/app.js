@@ -11,6 +11,8 @@ var mongoose = require('mongoose');
 var flash = require('connect-flash');
 var passport = require('passport');
 
+//change of location of file.
+
 // DB Setup
 var DB = require('./server/config/db.js');
 mongoose.connect(DB.url);
